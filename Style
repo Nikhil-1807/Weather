@@ -1,0 +1,254 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Poppins',sans-serif;
+
+    box-sizing: border-box; 
+
+    /*If you set box-sizing: border-box; on an element, 
+
+    padding and border are included in the width and height: 
+
+    Both divs are the same size now */
+
+}
+
+
+
+
+body{
+
+    background: #222;
+
+}
+
+
+
+
+.card{
+
+    width: 90%;
+
+    max-width: 470px;
+
+    background: linear-gradient(135deg, #00feba, #5b548a);
+
+    /* a gradient tilted 135deg, starting and ending 
+
+    gradient datatype object is given which is 
+
+    a special type of image */
+
+    color: #fff; /* text-color inside card */
+
+    margin: 100px auto 0; /* 100px from top, left and right auto and bottom 0*/
+
+    border-radius: 20px; /* making corners round */
+
+    padding: 40px 35px; /* space inside card */
+
+    text-align: center;
+
+}
+
+
+
+
+.search{
+
+    width: 100%;
+
+    display: flex;
+
+    /*sets the container to a flexbox element */
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+
+.search input{
+
+    border: 0;
+
+    outline: 0;
+
+    background: #ebfffc;
+
+    color: #555;
+
+    padding: 10px 25px;
+
+    height: 60px;
+
+    border-radius: 30px;
+
+    flex: 1;
+
+    /*The flex CSS shorthand property sets how a flex item 
+
+    will grow or shrink to fit the space available in its flex container. */
+
+    margin-right: 16px;
+
+    font-size: 18px;
+
+}
+
+
+
+
+.search button{
+
+    border: 0;
+
+    outline: 0;
+
+    background: #ebfffc;
+
+    border-radius: 50%;
+
+    width: 60px;
+
+    height: 60px;
+
+    cursor: pointer;
+
+    /* if we hover over the image we see that it is hand shaped 
+
+    and link to some other content */
+
+}
+
+
+
+
+.search button img{
+
+    width: 16px;
+
+}
+
+
+
+
+.weather-icon{
+
+    width: 170px;
+
+    margin-top: 30px;
+
+}
+
+
+
+
+.weather h1{
+
+    font-size: 80px;
+
+    font-weight: 500;
+
+    /*thickness of char in txt */
+
+}
+
+
+
+
+.weather h1{
+
+    font-size: 45px;
+
+    font-weight: 400;
+
+    margin-top: -10px;
+
+}
+
+
+
+
+.details{
+
+    display: flex;
+
+    /* because we have to create 2 columns */
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    /*defines how the browser distributes space between and around content 
+
+    items along the main-axis of a flex container, 
+
+    and the inline axis of a grid container */
+
+    padding: 0 20px;
+
+    margin-top: 50px;
+
+}
+
+.col{
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: left;
+
+}
+
+.col img{
+
+    width: 40px;
+
+    margin-right: 10px;
+
+}
+
+
+
+
+.humidity, .wind{
+
+    font-size: 28px;
+
+    margin-top: -6px;
+
+}
+
+
+
+
+.weather{
+
+    display: none;
+
+}
+
+
+
+
+.error{
+
+    text-align: left;
+
+    margin-left: 10px;
+
+    font-size: 14px;
+
+    margin-top: 10px;
+
+    display: none;
+
+}
